@@ -1,0 +1,13 @@
+.c1 {
+  background: url('https://m.media-amazon.com/images/G/01/kfw/landing/img_sky_bg2x._CB630820936_.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+
+  position: relative;
+  justify-content: space-between;
+}
