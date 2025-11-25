@@ -11,3 +11,51 @@
   position: relative;
   justify-content: space-between;
 }
+
+.c11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  gap: 20px;
+
+}
+
+.logo {
+  height: 50px;
+  object-fit: contain;
+  /* background-color: aqua; */
+
+}
+.t1 {
+  color: white;
+}
+
+.btnRow {
+  display: flex;
+  gap: 5px;
+}
+
+
+
+.btn1 {
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: #ffe19c;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.bottomimg {
+
+  z-index: 1;
+  height: 60vh;
+  object-fit: contain;
+}
